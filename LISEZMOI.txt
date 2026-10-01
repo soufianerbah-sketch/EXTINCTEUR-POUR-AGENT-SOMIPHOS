@@ -1,0 +1,5 @@
+Package PWA - Sécurité IND SOMIPHOS
+1. Héberger tout le dossier en HTTPS à la racine d'un site (GitHub Pages, Netlify ou domaine de l'entreprise).
+2. Ouvrir l'URL dans Chrome Android : "Installer l'application" apparait ; l'icône SOMIPHOS est ajoutée au tiroir d'applications, ouverture plein écran.
+3. Les données restent en localStorage par appareil (pas de partage entre ouvriers : backend à ajouter).
+4. Pour un vrai APK/AAB (Google Play) : encapsuler cette PWA avec Bubblewrap (TWA) ou Capacitor.
